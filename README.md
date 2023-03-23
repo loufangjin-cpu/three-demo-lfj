@@ -1,24 +1,9 @@
-# three-vue3-lfj
-
-## Project setup
+# three-vue3-lfj 练习three
+# Project setup
 ```
 yarn install
-```
-
-### Compiles and hot-reloads for development
-```
 yarn serve
 ```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 练习1: 实现看房
+- HelloWorld组件
+# 练习2
