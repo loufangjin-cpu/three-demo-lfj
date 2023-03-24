@@ -117,7 +117,6 @@ const glassMaterial = new THREE.MeshPhysicalMaterial({
 
 const render = () => {
   renderer.render(scene, camera);
-  controls && controls.update();
   requestAnimationFrame(render);
 };
 
@@ -130,8 +129,10 @@ const initGridHelper = () => {
 }
 const initControl = () => {
     // 添加控制器
-    controls = new OrbitControls(camera, renderer.domElement);
-    controls.update();
+    controls = ''
+    new OrbitControls(camera, renderer.domElement);
+    console.log(controls);
+    // controls.update();
 }
 const initRender = () => {
     canvasDom.value.appendChild(renderer.domElement);

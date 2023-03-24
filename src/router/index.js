@@ -15,6 +15,11 @@ const routes = [
     name: 'CarDisplay',
     component: () => import('@/views/carDisplay/car-display'),
   },
+  {
+    path: '/ball-surround',
+    name: 'BallSurround',
+    component: () => import('@/views/surround/ball-surround'),
+  },
 ];
 
 const router = createRouter({
